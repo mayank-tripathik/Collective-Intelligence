@@ -119,7 +119,6 @@ def getRecommendations(person):
 	return reccommended_list_of_movies
 
 #calculating recommended movies for each person
-
 def getRecommendationForEachPerson():
 	for person in critics:	
 		reccommended_list_of_movies=getRecommendations(person)
